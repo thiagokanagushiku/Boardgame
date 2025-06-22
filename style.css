@@ -1,0 +1,70 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('imagens/foz.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(6, 70px);
+  grid-gap: 5px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.cell {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.start {
+  background: black;
+  color: white;
+}
+
+.red { background: #f88; }
+.blue { background: #88f; }
+.green { background: #8f8; }
+.yellow { background: #ff8; }
+
+.marker {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 20px;
+  height: 20px;
+}
+
+#group-buttons button {
+  margin: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#group-buttons img {
+  width: 50px;
+  height: 50px;
+}
+
+#group-buttons .control {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
