@@ -13,7 +13,7 @@ for (let row = 0; row < 6; row++) {
     const cell = document.createElement("div");
     cell.className = "cell";
     if (i === 1) {
-      cell.textContent = "START";
+      cell.textContent = "スタート";
       cell.classList.add("start");
       cell.dataset.num = 0;
     } else {
