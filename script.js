@@ -1,6 +1,6 @@
 
 const board = document.getElementById("board");
-const colors = ["red", "blue", "green", "yellow"];
+const colors = ["blue", "yellow", "red", "green"];
 let cells = [];
 
 for (let row = 0; row < 6; row++) {
