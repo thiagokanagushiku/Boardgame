@@ -34,14 +34,14 @@ h1 {
 }
 
 .start {
-  background: black;
+  background: #5a595d;
   color: white;
 }
 
-.red { background: #f88; }
 .blue { background: #88f; }
-.green { background: #8f8; }
 .yellow { background: #ff8; }
+.red { background: #f88; }
+.green { background: #8f8; }
 
 .marker {
   position: absolute;
